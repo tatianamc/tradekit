@@ -62,8 +62,11 @@ pillow
 * iexfinance](https://pypi.org/project/iexfinance/) - Python SDK for IEX Cloud. Easy-to-use toolkit to obtain data for Stocks, ETFs, Mutual Funds, Forex/Currencies, Options, Commodities, Bonds, and Cryptocurrencies
 * [yfinance](https://pypi.org/project/yfinance/) - yfinance offers a reliable, threaded, and Pythonic way to download historical market data from Yahoo! finance.
 * [quandl](https://www.quandl.com/tools/python) - source for financial, economic, and alternative datasets, serving investment professionals
+
 ** [alpha-vantage](https://alpha-vantage.readthedocs.io/) - The Alpha Vantage Stock API provides free JSON access to the stock market, plus a comprehensive set of technical indicators
+
 ** binance crypto data
+
 ** [lemon-markets](https://documentaion.lemon.markets/) - The lemon.markets is the API powering equities trading for developers
 * [sec-edgar-downloader](https://sec-edgar-downloader.readthedocs.io/en/latest/) - package for downloading company filings from the SEC EDGAR database
 

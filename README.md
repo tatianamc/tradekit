@@ -2,9 +2,7 @@
 TradeKit
 # TradeKit
 
-Note: I am currently gathering feedback on what to include in this image, this is not "final". I will add more packages based on feedback and eventually freeze the versions. Let me know your thoughts. [Demo Video](https://www.youtube.com/watch?v=uiPMCJ0MEbM)
-
-The goal of TradeKit is to maintain a collection of open source server components and Python libraries for building your own financial applications, data analysis tools, and trading bots. These tools are packaged in a Docker container so that anyone can easily get up and running locally and develop with these components regardless of their operating system. Once a developer has successfully built their project locally, the Docker container can easily be deployed to a server (such as VPS on DigitalOcean or a cloud provider like AWS) for production use. 
+Note: an update version from Larry
 
 ## Server Components
 
@@ -60,12 +58,15 @@ pillow
 # Data Providers
 
 * [intrinio-sdk](https://docs.intrinio.com/documentation/python) - Intrinio provides US market data, company fundamentals data, options data and SEC data, powered by advanced data quality technology
-* [polygon-api-client](https://pypi.org/project/polygon-api-client/) - python client for Polygon.io, provider of real-time and historical financial market data APIs
-* [iexfinance](https://pypi.org/project/iexfinance/) - Python SDK for IEX Cloud. Easy-to-use toolkit to obtain data for Stocks, ETFs, Mutual Funds, Forex/Currencies, Options, Commodities, Bonds, and Cryptocurrencies
+* [polygon-api-client](https://pypi.org/project/polygon-api-client/) - python client for Polygon.io, provider of real-time and historical financial market data APIs N.B Free data only for Alpaca clients (or) 5 API Calls / Minute / End of Day Data/ 2 Years Historical Data* 
+* iexfinance](https://pypi.org/project/iexfinance/) - Python SDK for IEX Cloud. Easy-to-use toolkit to obtain data for Stocks, ETFs, Mutual Funds, Forex/Currencies, Options, Commodities, Bonds, and Cryptocurrencies
 * [yfinance](https://pypi.org/project/yfinance/) - yfinance offers a reliable, threaded, and Pythonic way to download historical market data from Yahoo! finance.
 * [quandl](https://www.quandl.com/tools/python) - source for financial, economic, and alternative datasets, serving investment professionals
-* [alpha-vantage](https://alpha-vantage.readthedocs.io/) - The Alpha Vantage Stock API provides free JSON access to the stock market, plus a comprehensive set of technical indicators
+** [alpha-vantage](https://alpha-vantage.readthedocs.io/) - The Alpha Vantage Stock API provides free JSON access to the stock market, plus a comprehensive set of technical indicators
+** binance crypto data
+** [lemon-markets](https://documentaion.lemon.markets/) - The lemon.markets is the API powering equities trading for developers
 * [sec-edgar-downloader](https://sec-edgar-downloader.readthedocs.io/en/latest/) - package for downloading company filings from the SEC EDGAR database
+
 
 # Backtesting
 
